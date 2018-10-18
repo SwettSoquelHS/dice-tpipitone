@@ -1,12 +1,17 @@
 void setup(){
-	noLoop();
+  //no loop means that draw is only called once
+  //OR if you ever call redraw()
+  noLoop();
 }
 
 void draw(){
-	//your code here
+  //your code here
 }
 
 void mousePressed(){
+  //No real work for you to do here
+  //calling redraw will do the necessary work 
+  //to redraw your processing script
   redraw();
 }
 
