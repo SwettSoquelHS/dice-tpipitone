@@ -1,8 +1,8 @@
 Dice
 ====
 
-In this assignment we'll practice using OOP (Object Oriented Programming) techniques. We'll create a `class` to model what a single die has and does, and then we will create at least 9 *instances* of that class arranged in a grid shape. Note that for full credit your program must display the total of all the dice and draw the dice with dots or similar marks. Also, you must customize the title, header and footer of `index.html`. You may find the first 66 slides of the 
-[OOP--Classes](https://drive.google.com/open?id=1esmmDE9bCKXrHMY3Wk3TNihJHbmQJ2Am5-_1I087jjM) slide presentation helpful, as well as the [Nested Loops](https://drive.google.com/open?id=1BVT2DQCriRXC4iTV_rzad22mqKbSpbXI), 
+In this assignment we'll practice using OOP (Object Oriented Programming) techniques. We'll create a `class` to model what a single die has and does, and then we will create at least 9 *instances* of that class arranged in a grid shape. Note that for full credit your program must display the total of all the dice and draw the dice with dots or similar marks. Also, you must customize the title, header and footer of `index.html`. You may find these additional slides on 
+[OOP--Classes](https://drive.google.com/open?id=1esmmDE9bCKXrHMY3Wk3TNihJHbmQJ2Am5-_1I087jjM) helpful, as well as the [Nested Loops](https://drive.google.com/open?id=1BVT2DQCriRXC4iTV_rzad22mqKbSpbXI), 
 [Practice with classes](https://drive.google.com/open?id=1wru9T3uwIhMziWxGcirR-HoiqY0-L_Gs) and the 
 [Math.random](https://drive.google.com/open?id=1lkqcEGCUX-xNA-UOMfMzTX08JrvK_fGH) worksheets.
 
