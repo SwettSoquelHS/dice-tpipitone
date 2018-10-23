@@ -1,19 +1,28 @@
+Die die_1;
+Die die_2;
+Die die_3;
+Die die_4;
+Die die_5;
+Die die_6;
+
+
 void setup(){
+  size(600,600);
   //no loop means that draw is only called once
   //OR if you ever call redraw()
   noLoop();
 }
 
 void draw(){
-  //your code here
+  background(0);
+  die_1 = new Die(50,50);
+  
 }
 
 void mousePressed(){
-  //No real work for you to do here
-  //calling redraw will do the necessary work 
-  //to redraw your processing script
   redraw();
 }
+
 
 
 //Dice: Models a single 6 sided dice cube
@@ -36,6 +45,9 @@ class Die {
 	  Use the randomly assigned roll value to draw the face of a die
 	*/
 	void show(){
-		//your code here
+  
+
+  
+    
 	}
 }
