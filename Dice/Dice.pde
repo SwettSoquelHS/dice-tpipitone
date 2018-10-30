@@ -10,7 +10,7 @@ Die die_9;
 
 int total;
 int grandTotal = 0;
-int avg = 0;
+float avg = 0;
 
 
 void setup(){
@@ -53,8 +53,9 @@ void draw(){
   grandTotal = grandTotal + total;
   text("Current Total: " + total, 175, 650);
   text("Running Total: " + grandTotal, 175, 700);
+  
   if(avg > 0){
-    text("Average: " + grandTotal / avg , 175, 750);
+    text("Average: " + Math.round(grandTotal / avg) , 175, 750);
   } else {
      text("Average: " + avg , 175, 750);
   }
