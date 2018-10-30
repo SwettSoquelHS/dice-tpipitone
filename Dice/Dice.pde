@@ -7,8 +7,10 @@ Die die_6;
 Die die_7;
 Die die_8;
 Die die_9;
-int total;
 
+int total;
+int grandTotal = 0;
+int avg = 0;
 
 
 void setup(){
@@ -28,6 +30,8 @@ void setup(){
   die_8 = new Die(250, 450);
   die_9 = new Die(450, 450);
   
+
+  
 }
 
 void draw(){
@@ -43,9 +47,19 @@ void draw(){
   die_7.show();
   die_8.show();
   die_9.show();
+  
   textSize(32);
   fill (244);
-  text("Total: " + total, 225, 650);
+  grandTotal = grandTotal + total;
+  text("Current Total: " + total, 175, 650);
+  text("Running Total: " + grandTotal, 175, 700);
+  if(avg > 0){
+    text("Average: " + grandTotal / avg , 175, 750);
+  } else {
+     text("Average: " + avg , 175, 750);
+  }
+  
+
   
 }
 
@@ -60,6 +74,8 @@ void mousePressed(){
   die_7.roll();
   die_8.roll();
   die_9.roll();
+  
+  avg++;
   
   
 
@@ -87,7 +103,7 @@ class Die {
 	void roll(){
 		randside = (int)(Math.random() * 6) + 1;
     total = 0;
-
+    
     
     
 	}
